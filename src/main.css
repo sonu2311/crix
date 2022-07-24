@@ -1,0 +1,16 @@
+.top_box {
+  border: solid #ccc 1px;
+  padding:  10px;
+  margin: 10px;
+}
+
+.link_box {
+  margin:  5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.link_box:hover {
+  background-color: #aaa;
+}
