@@ -661,3 +661,27 @@ color:#006666;
 }
 
 
+.left_panel{
+  border-right:solid #ddd 1px;
+  width:300px;
+  box-sizing: border-box;
+  height: calc(100vh - 70px);
+}
+
+.mid_panel{
+  /* border:solid blue 1px; */
+  width:calc(100% - 300px);
+  box-sizing: border-box;
+  height: calc(100vh - 70px);
+
+}
+.chat_div{
+	/*float: right;   */
+	padding:7px 12px; 
+	border-radius: 5px; 
+	/*background-color:rgb(220, 248, 198);*/ 
+	font-size: 15px; 
+	font-weight: 100; 
+	color:#333; 
+	max-width: 47%; 
+}
