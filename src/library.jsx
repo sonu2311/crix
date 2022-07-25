@@ -17,15 +17,34 @@ export function useImmer(initialValue) {
   ];
 }
 
-export var session = JSON.parse(localStorage.session || "null") || {login_key: {}}
-
 export var API_BASE_URL = ""
 
 export function setApiBaseUrl(url) { API_BASE_URL = url; }
 
+function loadSession() {
+  return JSON.parse(localStorage.session || "null") || {login_key: {}};
+}
+
+var g_session = loadSession();
+
+export const SessionContext = React.createContext()
+
+export function SessionProvider({children, defaultGlobalState}) {
+  const [session, setSession] = React.useState(loadSession())
+  const setSessionWrapper = function(value) {
+    setSession(value)
+    localStorage.session = JSON.stringify(value || g_session)
+  }
+  return (
+    <SessionContext.Provider value={[session, setSessionWrapper]}>
+      {children}
+    </SessionContext.Provider>
+  );
+}
+
 export function api(api_url, input, callback, failure_callback) {
   input = input || {}
-  input.session = session
+  input.session = g_session
   if (api_url.length > 0 && api_url[0] === '/') {
     api_url = API_BASE_URL + api_url
   }
@@ -39,9 +58,10 @@ export function api(api_url, input, callback, failure_callback) {
   })
   .then(response => response.json())
   .then(function(backend_output) {
-    session = backend_output.session || session
-    localStorage.session = JSON.stringify(session)
-    callback && callback(backend_output.data)
+    backend_output.session = backend_output.session || g_session
+    g_session = backend_output.session
+    localStorage.session = JSON.stringify(g_session)
+    callback && callback(backend_output)
   })
   .catch(function(error) {
     console.log(error)
