@@ -1,6 +1,7 @@
 import './library.css';
 import React from 'react';
 
+
 export function Header() {
   return (
     <div className="hsplit" >
@@ -19,6 +20,18 @@ export function Header() {
           <div className="link_box" >Example3</div>
         </a>
       </div>
+      <div>
+        <a href="#/header">
+          <div className="link_box" >Header</div>
+        </a>
+      </div>
+      <div>
+        <a href="#/home">
+          <div className="link_box" >Home</div>
+        </a>
+      </div>
     </div>
   );
 }
+
+

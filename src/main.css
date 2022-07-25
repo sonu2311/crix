@@ -14,3 +14,650 @@
 .link_box:hover {
   background-color: #aaa;
 }
+
+.top_box {
+  border: solid #ccc 1px;
+  padding:  10px;
+  margin: 10px;
+}
+
+.link_box {
+  margin:  5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.link_box:hover {
+  background-color: #aaa;
+}
+
+body, button {
+    font-family: roboto;
+}
+.login_main_div {
+    border:solid #ccc 1px;  
+    border-radius: 3px;
+    box-shadow:2px 3px 5px #ccc; 
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.login_header{
+    text-align: center; 
+    font-size: 20px; 
+    font-weight:700; 
+    /*color:#333; 
+    background-color:#b4b4b4; */
+    padding:9px 0px; 
+    background-color: #006666; 
+    border-color:#2e6da4; 
+    color:#fff;
+    border: 1px solid transparent;
+}
+.login_header_down_div{
+    margin:6px 0px;
+    box-sizing: border-box;
+    /*padding:5px;*/
+}
+.email_password_full_div{
+    padding:0px 10px; 
+    margin:15px 0px;
+}
+
+.email_password_name_div{
+    padding: 7px 0px; 
+    font-size: 15px;
+}
+
+.email_password_input_div{
+    padding: 5px 6px; 
+    width:265px;
+    outline: none;
+    border:solid #ccc 1px;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    
+}
+.email_password_input_div:hover{
+    box-shadow: 2px 3px 5px #ccc;
+}
+.login_button_div{
+    /*float:right; */
+    text-align: center;
+    margin-top:35px; margin-left:5px; padding:1px 8px;
+}
+.login_button{
+    background-color: #006666;
+    border-color: #2e6da4; 
+    color:#fff;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 25px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    outline: none;
+}
+.login_button:hover{
+    box-shadow: 2px 3px 5px #bbb;
+}
+
+
+.bigest_div{
+  /*padding: 70px 0px; */
+  margin-top: 5px;
+  padding-top:10px;
+  /*border:solid black 1px; */
+}
+.scroll_div{
+  /*border:solid green 1px; */
+  height: calc(100vh - 50px); 
+  overflow-y: scroll; 
+  position: fixed; top: 50px;
+}
+
+
+
+.login_main_div {
+    border:solid #ccc 1px;  
+    border-radius: 3px;
+    box-shadow:2px 3px 5px #ccc; 
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.login_header{
+    text-align: center; 
+    font-size: 20px; 
+    font-weight:700; 
+    /*color:#333; 
+    background-color:#b4b4b4; */
+    padding:9px 0px; 
+    background-color: #006666; 
+    border-color:#2e6da4; 
+    color:#fff;
+    border: 1px solid transparent;
+}
+.login_header_down_div{
+    margin:6px 0px;
+    box-sizing: border-box;
+    /*padding:5px;*/
+}
+.email_password_full_div{
+    padding:0px 10px; 
+    margin:15px 0px;
+}
+
+.email_password_name_div{
+    padding: 7px 0px; 
+    font-size: 15px;
+}
+
+.email_password_input_div{
+    padding: 5px 6px; 
+    width:265px;
+    outline: none;
+    border:solid #ccc 1px;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    
+}
+.email_password_input_div:hover{
+    box-shadow: 2px 3px 5px #ccc;
+}
+.login_button_div{
+    /*float:right; */
+    text-align: center;
+    margin-top:35px; margin-left:5px; padding:1px 8px;
+}
+.login_button{
+    background-color: #006666;
+    border-color: #2e6da4; 
+    color:#fff;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 25px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    outline: none;
+}
+.login_button:hover{
+    box-shadow: 2px 3px 5px #bbb;
+}
+
+
+.bigest_div{
+	/*padding: 70px 0px; */
+	margin-top: 5px;
+	padding-top:10px;
+	/*border:solid black 1px; */
+}
+.scroll_div{
+	/*border:solid green 1px; */
+	height: calc(100vh - 50px); 
+	overflow-y: scroll; 
+	position: fixed; top: 50px;
+}
+.font_weight{
+	font-weight: 600;
+}
+.margin_5{
+	margin:5px;
+}
+.margin_15{
+	margin:15px;
+}
+
+.image_detail_div{
+	/*border:solid red 1px; */
+	/*width: calc(100vw - 190px); */
+	/*margin-left: 160px; */
+	box-sizing: border-box;
+}
+.big_div{
+	/*text-align: center;*/
+	/*padding:5px;*/
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.border{
+	margin:10px;
+	/*padding:5px;*/
+	/*width:230px;*/
+	height: 360px;
+	border-radius: 3px;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+	border:solid #ccc 1px; 
+	box-sizing: border-box;
+	position: relative;
+	box-shadow: 2px 3px 5px rgba(0, 0, 0, 0);
+}
+
+.border:hover {
+	box-shadow: 2px 3px 5px #888888;
+	/*border: #888888;*/
+}
+
+img.product_image {
+	height: 280px;
+	
+}
+.box_sizing{
+	box-sizing: border-box;
+}
+.padding_10{
+	padding:0px 10px;
+}
+ /*   float: right;
+}
+div.hsplit > div {
+    float: left;
+}*/
+.add_cart {
+    border: solid #2e6da4 1px;
+    padding: 2px 15px;
+    /*margin-right: 10px;*/
+    border-radius: 20px;
+    color: #337ab7;
+    font-size: 15px;
+    box-sizing: border-box;
+    /*display: none;*/
+}
+
+.add_cart:hover{
+  background-color: #2e6da4;
+  color:#eee;
+}
+
+.discount_div{
+	position:absolute; 
+	left:0px; color:#fff; 
+	background-color:#4c91cd; 
+	padding:2px 5px;margin:10px; 
+	border-radius: 3px; 
+	box-sizing: border-box;  
+	font-size: 15px; 
+	width:50px; 
+}
+.image_div{
+	height:250px; overflow: hidden; 
+}
+.image_width{
+	width:100%;
+}
+.product_detail_div{
+	text-align: left; 
+	 /*border:solid red 1px; */
+	 line-height: 30px;
+	 padding:0px 15px; 
+	 font-weight: 400;
+	 color:#666;
+}
+.add_remove_class{
+	font-size: 22px;font-weight: 200; 
+  color:#337ab7; margin-top: 8px; 
+	/*border:solid red 1px;*/
+	margin-bottom: 0px; 
+	cursor: pointer;
+}
+.margin_left_5{
+	margin-left: 5px;
+}
+.margin_right_5{
+	margin-right: 5px;
+}
+.add_number{
+	/*border: solid red 1px;*/
+	margin-top: 5px; 
+	padding: 0px 5px;
+	text-align: center; 
+}
+.add_remove_comman_div {
+	/*border:solid black 1px; */
+	color:black; 
+	font-size: 18px;
+	text-align: center;
+}
+/*.add_remove_comman_div:hover{
+  background-color: #2e6da4;
+}*/
+
+.price_in_product_detail{
+	font-size: 17px; font-weight: 600; color:#333; margin-top: 8px;
+}
+/**/
+table {
+  border-collapse: collapse;
+  /*width: 100%;*/
+}
+
+/*td, th {
+  text-align: center;
+  padding: 8px;
+}*/
+td{
+  padding: 10px 10px;
+}
+/*tr:nth-child(odd){background-color: #f2f2f2}*/
+
+.cart_row {
+  border-bottom: solid #ddd 1px;
+}
+
+.logout_div{
+ /* border-bottom:solid #ccc 1px; */
+  padding: 8px 10px;
+  width:100px;
+  color:#333; 
+  font-size: 15px;
+}
+
+.logout_div:hover{
+  background-color:#f9f9f9;
+  color:#337ab7;
+
+}
+
+.logout_div > a {
+  color:#333; 
+}
+.logout_div:hover > a{
+  color:#006666; 
+}
+
+th {
+  background-color: #f9f9f9;
+  color: #006666;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px 5px;
+  /*border: solid black 1px;*/
+  /*box-sizing: border-box;*/
+}
+
+.th_image_width{
+  width:100px;
+  text-align: left
+
+}
+.th_name_width{
+  width: calc(100vw - 500px); 
+  text-align: left;
+  
+}
+.th_price_width{
+  width:120px;
+  
+}
+.th_add_quantity_width{
+  width:210px;
+  
+}
+.th_discount_width{
+  width:80px;
+  
+}
+.th_save_price_width{
+  width:100px;
+  
+}
+.th_total_price_width{
+  width:100px;
+  
+}
+
+.cart_name_div{
+  /*border:solid black 1px; */
+  margin-top: 22px; padding-left: 105px; 
+  font-size: 22px;font-weight: 600;  
+}
+.order_detail_div_navbar{
+  background-color:#f9f9f9; 
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  font-weight: 500;
+  padding: 12px 0 12px 30px;
+  font-size: 12px;
+
+}
+
+
+
+.vcenter:before {
+   content: " ";
+   display: inline-block;
+   height: 100%;
+   vertical-align: middle;
+}
+
+.vcenter > * {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.split_div{
+  width: 95%; margin:auto; margin-top:20px; margin-bottom:20px;
+}
+.card_div{
+  border:solid #CCC 1px;
+  border-radius: 3px;
+  box-shadow: 1px 2px 3px #ccc;
+  margin-bottom:20px; 
+  padding-top:5px;
+  box-sizing: border-box; 
+  padding-bottom:15px; 
+  padding-right:15px ; 
+  padding-left: 10px;
+  margin: 20px;
+}
+.input{
+  width:100%; 
+  outline: none;
+  border:solid #ccc 1px;border-radius: 3px;font-size: 14px;line-height: 1.42857143; width: 100%;box-sizing: border-box; padding: 5px 6px; 
+}
+.input:hover{
+   box-shadow: 2px 3px 5px #ccc;
+}
+.after_card_div{
+  border-radius: 3px; margin-top: 5px; padding-bottom: 8px; 
+}
+.comman_hader_style{
+  background-color: #fff; 
+  color:#337ab7; 
+  margin-top: 0px;
+  font-size: 28px;
+  font-weight: 400;
+  /* padding: 0px; */
+  margin-bottom: 10px;
+  text-align: center; 
+  padding:9px 0px; 
+    
+}
+.font_size-15{
+  font-size: 15px;
+}
+.margin-top-15{
+  margin:15px 0px;
+}
+.clear_icon{
+  float:right; margin-left: 10px; font-size: 20px;margin-top:10px;
+}
+.edit-icon{
+  float:right;font-size: 20px; margin-top:10px; 
+}
+.edit-icon:hover{
+  cursor: pointer;
+}
+.edit_div{
+  border-radius: 3px; 
+  margin-top: 5px; 
+  padding-bottom: 8px;
+}
+.margin-top-5{
+  margin-top: 5px;
+}
+.button_color{
+ /* background-color: #333;*/
+  background-color:#337ab7;
+}
+
+body {
+  overflow-y: scroll;
+}
+.margin-top-25{
+  margin-top: 25px;
+}
+.add_new_product_button{
+  margin-left: 30px;
+  margin-bottom: 10px; 
+  /*margin-top: 5px; */
+  background-color: #2e6da4; 
+  font-size: 16px;
+}
+.pagination_button {
+  border: solid #2e6da4 1px; padding:2px 9px; border-radius: 2px;
+  outline: none;
+  margin: 2px;
+}
+.pagination_button:hover{
+  outline: none;
+}
+.pagination_previous_button{
+  border:solid #ccc 1px; 
+  outline: none;
+  width:100px; 
+  border-radius: 2px;  
+}
+
+.scroll_in_profile_page {
+  /*border:solid green 1px; */
+  height: calc(100vh - 10px); 
+  /*overflow-y: scroll; */
+  position: fixed;
+  top: 50px;
+  left: 0px;
+}
+
+.in_scroll_profile_page_div {
+  /*margin-top: 25px;*/
+  color:#666;
+  padding:2px ;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.in_scroll_profile_page_div:hover{
+  color:#337ab7;
+  background-color: #eee;
+  /*color:#2e6da4;*/
+}
+.like_name_div{
+  padding:5px 8px; font-weight: 700; color: #999; font-size: 14px; 
+}
+.dislike_name_div{
+  padding:3px 8px; font-weight: 700; color: #999; font-size: 14px; 
+}
+.post_menu{
+  position: absolute; top:25px; right:3px;border-radius: 4px;box-shadow: 1px 1px 1px #888888;cursor: pointer; z-index: 100px;background-color: #fff; border:solid #ddd 1px; box-sizing: border-box;
+}
+
+button:disabled {
+  background: #ddd;
+}
+.email_contact_input{
+  padding:5px; border:solid #ccc 1px; outline: none; border-radius: 3px; width:420px; color:#333; max-width: 100%; 
+}
+.email_contact_input:hover{
+  box-shadow: 1px 1px 2px 1px #ccc;
+}
+
+.head_div{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 50;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px #ddd;
+  border-bottom: solid #eee 2px;
+}
+.logo{
+  margin-left: 30px;
+  /*font-size: 30px;*/
+  font-weight: 900;
+  /*font-family: "Poppins", sans-serif;*/
+  margin-top: 15px;
+  /*line-height: 3;*/
+  color: black;
+}
+.title{
+  margin-left: 30px;
+  font-weight: 900;
+  /*font-family: "Poppins", sans-serif;*/
+  margin-top: 5px;
+  margin-top: 16px; 
+  /*color:#42a5f5; */
+  /*color:#cc9900;*/
+  color:#337ab7;
+  font-size: 20px; 
+  font-family: roboto; 
+  font-weight: 500;
+}
+.heading{
+  /*font-family: "Poppins", sans-serif;*/
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 600;
+  padding: 15px 22px;
+  color: #333;
+  border-radius: 2px;
+}
+.heading:hover{
+  cursor: pointer;
+  color:#006666;
+  font-size: 15px;
+
+}
+
+.menu{
+line-height: 1.7;
+padding: 10px 22px;
+color: #333;
+}
+
+.menu:hover{
+cursor: pointer;
+color:#006666; 
+  /*color:white;*/
+  /*background-color: #337ab7;*/
+}
+
+
