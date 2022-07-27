@@ -38,7 +38,10 @@ class FlaskLib:
 					data = f(*([request_input, session][:len(inspect.signature(f).parameters)]))
 				finally:
 					self.mutex.release()
-				return json.dumps({"data": data, "session": session})
+				if type(data) != dict:
+					data = {"data": data}
+				data["session"] = session
+				return json.dumps(data)
 			g.__name__ = "api_" + str(self.name_counter)
 			self.name_counter += 1
 			self.app.route(route, methods=['POST', 'GET'])(g)
