@@ -50,6 +50,7 @@ export function Header() {
 
   const logout =function(){
     setSession({})
+    window.location.href = "#/login"
   }
 
   return (
@@ -57,14 +58,14 @@ export function Header() {
       <div className="head_div" style={{}} ng-controller="ctrl_header">
         <div className="hsplit" style={{}}>
             <div className="logo" style={{}}>
-            <a href={"#/home_url"}>
+            <a href={"#/home"}>
               <span className="material-icons" style={{fontSize: '25px', verticalAlign: 'middle', marginRight: '10px', color: '#006666'}}>
                 home
               </span>
             </a>
             </div>
             <div className="title" style={{display: 'none'}}>
-              Instagram
+              Crix
             </div>
             <div className="hsplit navbar_tabs" style={{float: 'right', marginRight: '25px'}}>
             <div className="show-md hide-xs show-sm">
@@ -84,7 +85,7 @@ export function Header() {
                 <a href={"#/profile/" + session.login_key.id} >
                   <div className="heading hsplit" style={{}}>
                     <div style={{marginRight: '10px', borderRadius: '50%', textAlign: 'center', overflow: 'hidden', verticalAlign: 'middle', whiteSpace: 'nowrap'}}>
-                      <img style={{width: '35px', height: '35px', verticalAlign: 'middle'}} src={session.login_key.image} alt="" />
+                      <img style={{width: '35px', height: '35px', verticalAlign: 'middle'}} src={session.login_key.profile_pic} alt="" />
                     </div>
                     
                     <div style={{marginLeft: '5px', fontSize: '18px'}}>
@@ -96,7 +97,7 @@ export function Header() {
             </div>
             <div className="show-md hide-xs show-sm">
               {!isLogin && (
-                <a href={"#/signup_url"}>
+                <a href={"#/signup"}>
                   <div className="heading">
                       Sign Up
                   </div>

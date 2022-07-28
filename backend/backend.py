@@ -82,7 +82,9 @@ def Login(frontend_dict, session):
   session['login_key'] = {
     "id": uinfo['id'],
     "role": uinfo['role'],
-    "name": uinfo['name']}
+    "name": uinfo['name'],
+    "profile_pic": uinfo["profile_pic"]
+    }
   return {"id": uinfo['id']}
 
 

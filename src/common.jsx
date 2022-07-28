@@ -5,6 +5,8 @@ import {Routes, Route, HashRouter} from "react-router-dom"
 import React from 'react';
 import { Header } from './header';
 import Home from './home';
+import Login from './login';
+import Signup from './signup';
 
 
 function MainFunc() {
@@ -12,12 +14,15 @@ function MainFunc() {
     <HashRouter>
       <Routes>
         <Route >
-          <Route path="/" element={<Example1 />} />
+          <Route path="/" element={<Home />} />
           <Route path="/example1" element={<Example1 />} />
           <Route path="/example2" element={<Example2 />} />
           <Route path="/example3" element={<Example3 />} />
           <Route path="/header" element={<Header/>} />
           <Route path="/home" element={<Home/>} />
+          <Route path="/home/:id" element={<Home/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/signup" element={<Signup/>} />
           <Route path="*" element={<h1>Invalid</h1>} />
         </Route>
       </Routes>

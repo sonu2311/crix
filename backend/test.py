@@ -65,8 +65,8 @@ def TestChatSummary():
   print(json.dumps(backend.GetChatSummary({}, session), indent=2))
 
 
-# CreateAccounts()
-# Insert()
+CreateAccounts()
+Insert()
 # TestOldMessageNewMessageGetter()
 
-TestChatSummary()
+# TestChatSummary()

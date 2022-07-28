@@ -685,3 +685,19 @@ color:#006666;
 	color:#333; 
 	max-width: 47%; 
 }
+.chat_summary_div{
+  border:solid #eee 1px;
+  padding: 7px 10px;
+  cursor: pointer;
+  border-radius:1px 50px 50px 1px; 
+  margin-right: 20px;
+  color:#333;
+  font-size: 15px;
+}
+
+.chat_summary_div:hover {
+  background-color: #eee;
+}
+.chat_word{
+  padding: 10px
+}
